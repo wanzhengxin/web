@@ -1,0 +1,251 @@
+
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:80px;
+}
+
+#page-wrapper {
+    padding: 10px 10px;
+    min-height: 400px;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:20px 10px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:490px;
+}
+.pad-top {
+    padding-top:15px;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+.taglist{
+    padding: 5px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+	padding:0;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+.mynav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.myimg{
+    display: block;
+    width: 60px;
+    height: inherit;
+    margin:10px;
+   
+}
+.myheader{
+     display: block;
+    width: 70%;
+    height: 50px;
+    margin:20px 10px 0px 20px;
+    
+}
+.myinfo{
+    
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin:10px;
+  
+}
+.myfont{
+    font-size: 14px;
+}
+.record_img{
+  max-width: 5vw;
+  height:auto;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    margin:1vw;
+    float:right;
+    color:#fff;
+    font-weight:800;
+    font-size:2vw;
+}
+.header-spn {
+    margin:2vw;
+    float:right;
+    color:#fff;
+    font-size:2vw;
+    font-weight:800;
+}
+.head-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 20px 25px 10px 50px;
+    padding-left: 0px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+.active-link {
+    background-color:#f3f3f3;
+}
+    
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:1px;
+  
+    border-radius:8px;
+    margin:0px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+     padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 0px;
+        padding: 15px 30px;
+        min-height: 800px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+.addBtn {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  color: #ccc;
+  transition: color .25s;
+  position: relative;
+}
+.addBtn::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  margin-left: -40px;
+  margin-top: -5px;
+  border-top: 10px solid;
+}
+.addBtn::after {
+ content: '';
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ height: 80px;
+ margin-left: -5px;
+ margin-top: -40px;
+ border-left: 10px solid;
+}
+ul li{
+  list-style:decimal;
+  margin: 0;
+  padding: 0;
+}
+.img_modal{
+  display: flex;
+  flex-direction: row;
+}
+.img_modal_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.img_1{
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+.img_2{
+   display: block;
+ 
+}

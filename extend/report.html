@@ -1,0 +1,247 @@
+{extend name="public/base"/}
+{block name="content"}
+<div class="row" id='package' >
+    <div class="col-lg-12 ">
+        <div class="taglist alert-info">
+            <i class="fa fa-circle-o-notch fa-1x"></i>
+            <strong> 报告管理</strong>
+            <button class="add btn  pull-right btn-default" @click="printf()" >打印</button>
+            <button class="add btn  pull-right btn-default" @click="share()"  >转发</button>
+            <a href="javascript:window.history.go(-1)"><button class="add btn  pull-right btn-default " >返回</button></a>
+        </div>
+    </div>
+
+<div class="col-lg-8 col-md-8 table-responsive col-md-offset-2"  id="page" style="border: 1px solid black;">
+        <h1 class="text-center">DELIVERY REPORT</h1>
+        <br>
+        <br>
+        <h3 class="text-center">EQPT'S OF ETI SODA PROJECT</h3>
+        <h3 class="text-center">(INVOICE NO. ETI SODA-TCC-002)</h3>
+        <h3 class="text-center">M.V. “PING AN SONG” V.35</h3>
+        <br>
+        <h3 class="text-center">FM 4TH OCT. TO 29TH OCT. 2017</h3>
+        <br>
+   
+        <u class="text-left h3 ">Introduction</u>
+        <p class="text-left h4">
+            In accordance with the instructions from Messrs. （发货人）CHINA TIANCHEN ENGINEERING CORP., we (COSCO SHIPPING LOGISTICS-Shanghai) are in charge of the local port handling, customs clearance, Ocean transportation from （装货港）Shanghai to（卸货港） Iskenderun,Turkey. 
+            <br>And attended operation processes for sub. shipment, from 4th Oct. to 12th Oct., 2017. Hereby reporting in separate stage, as following:
+        </p>
+
+        
+    <div class="col-lg-6 col-md-6 table table-responsive col-md-offset-0">
+        <div><u class="text-left h3 ">Ship Particulars:</u></div>
+        <br>
+            <div class="input-group  ">
+            <span class="input-group-addon">Vessel Name:</span>
+            <input type="text" class="form-control" value="{$list.p_number|default=''}" name="p_number"/>
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Vessel Type:</span>
+            <input type="text" class="form-control" value="{$list.pc_num|default=''}" name="pc_num"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">IMO Number:</span>
+            <input type="text" class="form-control" value="{$list.project|default=''}" name="project"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Call Sign:</span>
+            <input type="text" class="form-control" value="{$list.card_id|default=''}" name="card_id"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Port of Registry:</span>
+            <input type="text" class="form-control" value="{$list.send_people|default=''}" name='send_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Year of Built:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Loa:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Breadth:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Summer Draft:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Dead Weight:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+        <br>
+        <div><u class="text-left h3 ">Cargo status:</u></div>
+        <br>
+           <div class="input-group  ">
+            <span class="input-group-addon">Shipping order:</span>
+            <input type="text" class="form-control" value="{$list.p_number|default=''}" name="p_number"/>
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Shipper:</span>
+            <input type="text" class="form-control" value="{$list.pc_num|default=''}" name="pc_num"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Cosignee:</span>
+            <input type="text" class="form-control" value="{$list.project|default=''}" name="project"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Port of loading:</span>
+            <input type="text" class="form-control" value="{$list.card_id|default=''}" name="card_id"/>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Port of discharging:</span>
+            <input type="text" class="form-control" value="{$list.send_people|default=''}" name='send_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Description:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Quantity:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Gross Weight:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+          <div class="input-group">
+          <span class="input-group-addon">Volume:</span>
+            <input type="text" class="form-control" value="{$list.get_people|default=''}" name='get_people' />
+          </div>
+    </div>
+
+   
+   <ol>
+       <li><u class="text-left h3 ">Time sheet of loading procedures:</u></li>
+       <li>Receiving at POL（收货时间）: FM 4TH TO 12TH OCT.</li>
+       <li>Berth at terminal（靠泊时间）: 2222LT on 26th OCT. 2017</li>
+       <li>Commenced loading work of interested cargo（开始装货时间）: 0130LT on 27th OCT. 2017</li>
+       <li>Completion of loading procedure（完成装货时间）: 1700LT on 29th OCT. 2017.</li>
+       <li>Actual departure time（开船时间）: 1930LT on 29th OCT. 2017.</li>
+   </ol>
+   <div style="padding-top:20px;" v-for="(item,index) in data4 ">
+  <p class="bg-info"><li>{{item.tag}}</li></p>
+  <ul class="ul">
+    <li v-for="li in item.info">
+    <p>{{li.record}}</p>
+    <div>   
+      <img style='width: 140px;height:100px;padding:2px' :src="img"  v-for="img in li.img"/>  
+    </div>
+    </li>
+  </ul>
+  </div>
+        <br>
+        <u class="text-left h3 ">FINALLY:</u>
+        <p class="text-left h4">
+            The facts contained in this Report are, to the best of our knowledge and belief, TRUE AND CORRECT.
+        </p>
+<div class="text-center" style="width: 100%;height: 5px;background-color: #ddd"></div>
+</br>
+<div class="text-right">COSCO Shipping Logistics (Shanghai)</div>
+<div class="text-right ">Dated: 6th NOV. 2017【生成报告时间】</div>
+
+    </div>
+</div>
+{/block}
+{block name='js'}
+
+<script type="text/javascript">
+    
+  
+  /*
+   * 注意：
+   * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里
+   */
+  wx.config({
+      debug: false,
+      appId: 'wx7316676cbe8e5c4b',
+      timestamp: {$timestampe},
+      nonceStr: '{$noncestr}',
+      signature: '{$signature}',
+      jsApiList: [
+        'checkJsApi',
+        'onMenuShareAppMessage',
+        'onMenuShareQQ'
+      ]
+  });
+
+</script>
+
+
+<script type="text/javascript">
+var vm = new Vue({
+        el:"#package",
+        data:{
+            data4:[
+              {p_id:"1",id:"1",tag:'Pre-loading Condition:', info:[{record:
+                "According to the information from Master of barge, we noted all the cargo under this voyage had been delivered to Zhanghuabang(No. 9) Terminal. FM 4TH TO 12TH OCT.,2017, we attended at the open yard of No.9 Terminal. As our investigation, the cargoes we interested included 24 pkgs of equipments, all cargoes were stowed on open area, and then we inspected the details as following: ",
+                img:['__STATIC__/image/package/1.jpg','__STATIC__/image/package/2.jpg','__STATIC__/image/package/3.jpg']}]
+              },
+              {p_id:"1",id:"2",tag:'Loading operation & Stowage Plan:', info:[{record:
+                "According to the information from Master of barge, we noted all the cargo under this voyage had been delivered to Zhanghuabang(No. 9) Terminal. FM 4TH TO 12TH OCT.,2017, we attended at the open yard of No.9 Terminal. As our investigation, the cargoes we interested included 24 pkgs of equipments, all cargoes were stowed on open area, and then we inspected the details as following: ",
+                img:['__STATIC__/image/package/1.jpg','__STATIC__/image/package/2.jpg','__STATIC__/image/package/3.jpg']}]
+              },
+              {p_id:"1",id:"3",tag:'Lashing & Securing:', info:[{record:
+                "According to the information from Master of barge, we noted all the cargo under this voyage had been delivered to Zhanghuabang(No. 9) Terminal. FM 4TH TO 12TH OCT.,2017, we attended at the open yard of No.9 Terminal. As our investigation, the cargoes we interested included 24 pkgs of equipments, all cargoes were stowed on open area, and then we inspected the details as following: ",
+                img:['__STATIC__/image/package/1.jpg','__STATIC__/image/package/2.jpg','__STATIC__/image/package/3.jpg']}]
+              },
+              {p_id:"1",id:"4",tag:'Cargo damaged:', info:[{record:
+                "According to the information from Master of barge, we noted all the cargo under this voyage had been delivered to Zhanghuabang(No. 9) Terminal. FM 4TH TO 12TH OCT.,2017, we attended at the open yard of No.9 Terminal. As our investigation, the cargoes we interested included 24 pkgs of equipments, all cargoes were stowed on open area, and then we inspected the details as following: ",
+                img:['__STATIC__/image/package/1.jpg','__STATIC__/image/package/2.jpg','__STATIC__/image/package/3.jpg']}]
+              },
+            ],
+        },
+        created:function(){
+            console.log("onLoad");
+
+        },
+        methods:{
+            change:function(){
+                console.log(this.selected)
+                var that=this
+               
+            },
+            printf:function(){
+                $("#page").printArea();
+            },
+            share:function(){
+               wx.checkJsApi({
+                jsApiList: [
+                  'onMenuShareAppMessage'
+                ],
+                success: function (res) {
+                  alert(JSON.stringify(res));
+
+                }
+              });
+              wx.ready(function(){
+                wx.onMenuShareAppMessage({
+                      title: '互联网之子',
+                      desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
+                      link: 'http://movie.douban.com/subject/25785114/',
+                      imgUrl: 'http://demo.open.weixin.qq.com/jssdk/images/p2166127561.jpg',
+                      trigger: function (res) {
+                        // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                        alert('用户点击发送给朋友');
+                      },
+                      success: function (res) {
+                        alert('已分享');
+                      },
+                      cancel: function (res) {
+                        alert('已取消');
+                      },
+                      fail: function (res) {
+                        alert(JSON.stringify(res));
+                      }
+                    });
+              })
+            }
+           
+
+        }
+    })
+</script>
+{/block}
