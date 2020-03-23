@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb4632dd27d41dd24394d0ced633fe9c",
+    "content-hash": "1715e5e761749262af49153cfae52474",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -59,6 +59,52 @@
                 "instantiate"
             ],
             "time": "2015-06-14T21:17:01+00:00"
+        },
+        {
+            "name": "luoyy/phpqrcode",
+            "version": "v1.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zishang520/phpqrcode.git",
+                "reference": "cb3105ba1ebb9c814aa688d7b87ca275464c8f14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zishang520/phpqrcode/zipball/cb3105ba1ebb9c814aa688d7b87ca275464c8f14",
+                "reference": "cb3105ba1ebb9c814aa688d7b87ca275464c8f14",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/qrconst.php",
+                    "src/tcpdf/const.php"
+                ],
+                "psr-4": {
+                    "luoyy\\phpqrcode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zishang520",
+                    "email": "zishang520@gmail.com",
+                    "homepage": "http://www.luoyy.com"
+                }
+            ],
+            "description": "phpqrcode",
+            "keywords": [
+                "phpqrcode",
+                "php生成二维码",
+                "qrcode"
+            ],
+            "time": "2018-02-03T00:00:00+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",

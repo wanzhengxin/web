@@ -241,7 +241,7 @@ EOF;
             throw new \RuntimeException(sprintf($message, $path));
         }
 
-        if (!preg_match('{\b(?:class|interface' . $extraTypes . ')\s}i', $contents)) {
+        if (!preg_match('{\b(?:class|inter' . $extraTypes . ')\s}i', $contents)) {
             return [];
         }
 
@@ -266,7 +266,7 @@ EOF;
 
         preg_match_all('{
             (?:
-                 \b(?<![\$:>])(?P<type>class|interface' . $extraTypes . ') \s++ (?P<name>[a-zA-Z_\x7f-\xff:][a-zA-Z0-9_\x7f-\xff:\-]*+)
+                 \b(?<![\$:>])(?P<type>class|inter' . $extraTypes . ') \s++ (?P<name>[a-zA-Z_\x7f-\xff:][a-zA-Z0-9_\x7f-\xff:\-]*+)
                | \b(?<![\$:>])(?P<ns>namespace) (?P<nsname>\s++[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*+(?:\s*+\\\\\s*+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*+)*+)? \s*+ [\{;]
             )
         }ix', $contents, $matches);

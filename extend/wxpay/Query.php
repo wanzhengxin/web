@@ -6,7 +6,6 @@ use think\Loader;
 
 require_once 'lib/WxPayException.php';
 Loader::import('wxpay.lib.WxPayApi');
-
 /**
 * 订单查询
 *

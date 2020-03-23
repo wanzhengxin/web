@@ -27,7 +27,77 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/model/School.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/School.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="252" column="30" selection-start-line="252" selection-start-column="19" selection-end-line="252" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/Func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/Push.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/Need.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="e#45#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/func/controller/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-728">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="e#38#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,8 +125,16 @@
         <option value="$PROJECT_DIR$/conf/sharehis/config.php" />
         <option value="$PROJECT_DIR$/app/sharehis/controller/Server.php" />
         <option value="$PROJECT_DIR$/app/sharehis/controller/Activity.php" />
-        <option value="$PROJECT_DIR$/app/sharehis/model/Article.php" />
+        <option value="$PROJECT_DIR$/extend/wxpay/Query.php" />
+        <option value="$PROJECT_DIR$/extend/wxpay/Notify.php" />
+        <option value="$PROJECT_DIR$/extend/GatewayWorker/Applications/YourApp/start_gateway.php" />
+        <option value="$PROJECT_DIR$/app/sharehis/interface/Dbface.php" />
         <option value="$PROJECT_DIR$/app/sharehis/controller/Article.php" />
+        <option value="$PROJECT_DIR$/app/sharehis/model/Article.php" />
+        <option value="$PROJECT_DIR$/app/sharehis/inter/Dbface.php" />
+        <option value="$PROJECT_DIR$/app/sharehis/controller/User.php" />
+        <option value="$PROJECT_DIR$/app/func/controller/School.php" />
+        <option value="$PROJECT_DIR$/app/func/controller/User.php" />
         <option value="$PROJECT_DIR$/app/func/controller/Push.php" />
       </list>
     </option>
@@ -97,11 +175,11 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/luoyy/phpqrcode" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="58" />
+    <option name="x" value="28" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -135,7 +213,25 @@
           <expand>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="func" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="func" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,13 +242,14 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/study/phptools/myphp_www/PHPTutorial/WWW/ThinkPHP/web/app/package/view/index/add_list.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jwschool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\study\phptools\myphp_www\PHPTutorial\WWW\ThinkPHP\web" />
     <property name="node.js.selected.package.standard" value="C:\study\phptools\myphp_www\PHPTutorial\WWW\ThinkPHP\web" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RunDashboard">
@@ -166,6 +263,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="User.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/sharehis/controller/User.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.User.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -196,11 +303,19 @@
       <workItem from="1577959510411" duration="6630000" />
       <workItem from="1579094773887" duration="308000" />
       <workItem from="1580979847387" duration="660000" />
+      <workItem from="1583388079269" duration="2214000" />
+      <workItem from="1583583384580" duration="3930000" />
+      <workItem from="1583846714575" duration="189000" />
+      <workItem from="1583846980180" duration="5106000" />
+      <workItem from="1584071161267" duration="615000" />
+      <workItem from="1584689405376" duration="2375000" />
+      <workItem from="1584950481641" duration="151000" />
+      <workItem from="1584966831005" duration="8149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87103000" />
+    <option name="totallyTimeSpent" value="109832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,19 +328,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49447078" visible="true" weight="0.1785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4914842" visible="true" weight="0.20996979" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.5055292" side_tool="true" weight="0.25183016" />
+      <window_info id="Favorites" order="3" sideWeight="0.50851583" side_tool="true" weight="0.18126889" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5030211" side_tool="true" weight="0.3147541" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49697885" weight="0.3294893" />
-      <window_info anchor="bottom" id="Terminal" order="5" show_stripe_button="false" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49697885" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.29641694" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="TODO" order="8" show_stripe_button="false" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -286,51 +402,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conf/package/route.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/package/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/package/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/css/package/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package/controller/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package/view/user/mine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package/view/user/useradmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package/view/index/add_pici.html" />
     <entry file="file://$PROJECT_DIR$/app/package/view/record/record_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -438,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/func/controller/Func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/sharehis/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -453,13 +517,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sharehis/model/Doctor.php" />
-    <entry file="file://$PROJECT_DIR$/app/func/controller/Need.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/package/controller/Record.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2208">
@@ -467,54 +524,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/func/controller/Push.php">
+    <entry file="file://$PROJECT_DIR$/app/sharehis/controller/Server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="23">
+          <caret line="5" column="22" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sharehis/controller/Activity.php">
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="-2070">
+          <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/phpqrcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#43#76#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#16#22#0" expanded="true" />
+            <element signature="e#22#28#0" expanded="true" />
+            <element signature="e#27#33#0" expanded="true" />
+            <element signature="e#33#39#0" expanded="true" />
+            <element signature="e#39#45#0" expanded="true" />
+            <element signature="e#45#51#0" expanded="true" />
+            <element signature="e#51#57#0" expanded="true" />
+            <element signature="e#57#63#0" expanded="true" />
+            <element signature="e#63#69#0" expanded="true" />
+            <element signature="e#69#75#0" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sharehis/model/Server.php">
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/Query.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="-71">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/NativePay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#36#52#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sharehis/model/Article.php">
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/MicroPay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/WxPayBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#42#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/WapPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/JsapiPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/Notify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Cash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/MIT-LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/README.md" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/start_for_win.bat" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/Applications/YourApp/Events.php" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/Applications/YourApp/start_gateway.php" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/Applications/YourApp/start_businessworker.php" />
+    <entry file="file://$PROJECT_DIR$/extend/GatewayWorker/Applications/YourApp/start_register.php" />
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sharehis/controller/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="836">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="26" />
           <folding>
             <element signature="e#44#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sharehis/controller/Server.php">
+    <entry file="file://$PROJECT_DIR$/app/sharehis/controller/Activity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="5" column="22" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#43#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sharehis/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sharehis/model/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="1" selection-start-line="9" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sharehis/model/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#36#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sharehis/inter/Dbface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/model/School.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/School.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Need.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#45#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#38#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="252" column="30" selection-start-line="252" selection-start-column="19" selection-end-line="252" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/func/controller/Push.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>

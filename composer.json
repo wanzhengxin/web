@@ -25,7 +25,8 @@
         "topthink/think-mongo": "1.7",
         "topthink/think-captcha": "^1.0",
         "topthink/think-angular": "^1.0",
-        "phpoffice/phpexcel": "^1.8"
+        "phpoffice/phpexcel": "^1.8",
+        "luoyy/phpqrcode": "^1.1"
     },
     "extra": {
         "think-path": "thinkphp"
